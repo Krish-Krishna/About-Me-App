@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="sai_krishna">Sai Krishna</string>
+    <string name="myphoto">myPhoto</string>
+    <string name="textview">TextView</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/sai"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/myphoto" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/sai_krishna"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Me"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dedicated and performance-driven Software Developer with a pro-active
+approach and determination to successfully finish all assigned projects
+with in schedule. Will always be seeking, integrating, developing new skills
+and use it for development of the Organization."
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/teal_700"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technical Skills"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-> Core Java\n-> Python\n-> Linux\n-> HTML\n-> CSS\n-> Website Design\n-> Front End Web Development\n-> Object Oriented Programming (OOPs)\n-> Android Developer"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/teal_700"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Project"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mining Human Activity Patterns from Smart Home Big Data forHealth Care Applications"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using Big Data techniques to mine data from smart home and
+plotting graphs to analyze disease patterns. helps to predict
+diseases in advance through recognizing patterns from resident’s
+activity."
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/teal_700"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/teal_700"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achievements"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-> Organizer of college Symposium\n-> Diploma in MS-Office\n-> Zonal player in Volley ball (Winner)\n-> Certificate of Appreciation from NSS"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/teal_700"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Languages Known"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-> English\n-> Hindi\n-> Tamil\n-> Telugu"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/teal_700"/>
+
+            <EditText
+                android:id="@+id/feelings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:ems="10"
+                android:hint="Your Feelings!"
+                android:inputType="textPersonName"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/textDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="80dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/purple_200"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</layout>
